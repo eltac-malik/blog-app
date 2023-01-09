@@ -1,0 +1,35 @@
+{
+    "fonts":
+    [
+        {
+            "roboto":{
+                "use":"font-family: 'Roboto', sans-serif;",
+                "light":300,
+                "regular":400,
+                "medium":500,
+                "bold":700
+            },
+            "bebasNeue":{
+                "use":"font-family: 'Bebas Neue', cursive;",
+                "regular":400
+            },
+            "poppins":{
+                "use":"font-family: 'Poppins', sans-serif;",
+                "light":300,
+                "regular":400,
+                "medium":500,
+                "bold":700,
+                "semibold":600,
+                "extrabold":800
+            },
+            "oswald":{
+                "use":"font-family: 'Oswald', sans-serif;",
+                "light":300,
+                "regular":400,
+                "bold":700,
+                "semibold":600,
+                "extrabold":800
+            }
+        }
+    ]
+}

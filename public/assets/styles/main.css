@@ -1,0 +1,17 @@
+:root
+{
+    --primary-color:#00aa95;
+    --secondary-color: #00cc76;
+    --tertiary-color: #a5e887;
+    --font-color: #00aa95;
+    --primary-font-family:"font-family: 'Oswald', sans-serif;"
+}
+
+
+@media(max-width:900px)
+{
+    .mrt
+    {
+            margin-top: 60px;
+    }
+}
