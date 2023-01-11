@@ -5,7 +5,9 @@
     display: flex;
     align-items: center;
     padding: 0 20px;
-
+    @media(max-width:900px) {
+    padding: 0 5px;
+    }
     &_company_image_box {
         width: 50px;
         height: 50px;
@@ -30,25 +32,48 @@
         align-items: flex-start;
         justify-content: center;
         padding-left: 20px;
+        @media(max-width:900px) {
+            width: 60%;
+            padding-left: 10px;
+        }
     }
-    .vacancy_head_title
-    {
+    .vacancy_data_operations {
+        height: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .vacancy_head_title {
         font-weight: 600;
         font-size: 16px;
         color: #000;
         line-height: 19px;
     }
-    .vacany_sub_company
-    {
+    .vacany_sub_company {
         color: #a3a3a3;
         font-size: 16px;
     }
-    .vacancy_icon
-    {
+    .vacancy_icon {
         font-size: 16px;
         margin: 0 5px;
+        @media(max-width:900px) {
+                margin: 0 3px;
+            }
     }
     .fa_heart_active {
         color: red;
+    }
+    .vacancy_horizontal_line {
+        color: var(--primary-color);
+        margin: 0 5px;
+        @media(max-width:900px) {
+            margin: 0 1px;
+        }
+    }
+    .vacancy_seen_count {
+        color: #aeaeae;
+    }
+    .vacancy_start_date {
+        width: 45px;
     }
 }

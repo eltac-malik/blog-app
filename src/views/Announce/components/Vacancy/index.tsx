@@ -19,9 +19,17 @@ export const Vacancy = () => {
               <p className={style.vacancy_head_title}>{e.vacancyName}</p>
               <p className={style.vacany_sub_company}>{e.aboutCompany.companyName}</p>
             </Box>
-            <Box>
+            <Box className={style.vacancy_data_operations}>
               <i className={`${style.vacancy_icon} fa-solid fa-eye`}></i>
-              <i className={`${style.vacancy_icon} fa-regular  ${cn({"fa-solid":false})} fa-heart ${cn({[style.fa_heart_active]:false})}`}></i>
+              <p className={style.vacancy_seen_count}>153</p>
+              <i className={style.vacancy_horizontal_line}>|</i>
+              <p className={style.vacancy_start_date}>{e.startDate}</p>
+              <i className={style.vacancy_horizontal_line}>|</i>
+              <i
+                className={`${style.vacancy_icon} fa-regular  ${cn({
+                  "fa-solid": false
+                })} fa-heart ${cn({ [style.fa_heart_active]: false })}`}
+              ></i>
             </Box>
           </Box>
         );
@@ -36,10 +44,17 @@ export const Vacancy = () => {
               <p className={style.vacancy_head_title}>{e.vacancyName}</p>
               <p className={style.vacany_sub_company}>{e.aboutCompany.companyName}</p>
             </Box>
-            <Box>
+            <Box className={style.vacancy_data_operations}>
               <i className={`${style.vacancy_icon} fa-solid fa-eye`}></i>
-              <i className={`${style.vacancy_icon} fa-regular fa-heart`}></i>
-              <i className={`${style.vacancy_icon} fa-solid fa-heart fa-heart-active`}></i>
+              <p className={style.vacancy_seen_count}>153</p>
+              <i className={style.vacancy_horizontal_line}>|</i>
+              <p className={style.vacancy_start_date}>{e.startDate}</p>
+              <i className={style.vacancy_horizontal_line}>|</i>
+              <i
+                className={`${style.vacancy_icon} fa-regular  ${cn({
+                  "fa-solid": false
+                })} fa-heart ${cn({ [style.fa_heart_active]: false })}`}
+              ></i>
             </Box>
           </Box>
         );
