@@ -8,10 +8,10 @@ function Navbar() {
   const viewWizard = useSelector((state: any) => state.wizard.viewWizard);
   return (
     <div className={style.navbar}>
-      <p>navbar</p>
       <p onClick={() => dispatch(setViewWizard(!viewWizard))}>
         <MenuIcon sx={{ fontSize: 35 }} />
       </p>
+      <p>navbar</p>
     </div>
   );
 }
