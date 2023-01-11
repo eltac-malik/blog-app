@@ -34,7 +34,6 @@ export const routes: CustomRoute[] = [
     path: "/category",
     name: "Category",
     icon: <CategoryRounded />,
-    // icon: <Category />,
     element: <Category />,
     isSeenable: true,
     isProtected: false
