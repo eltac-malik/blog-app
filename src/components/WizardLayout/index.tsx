@@ -26,7 +26,7 @@ function Index() {
       <div className={style.wizard_side_close_section}>
         <p></p>
         <p onClick={handleClose} className={style.wizard_close_icon}>
-          <Close sx={{ fontSize: 35 }} />
+          <Close sx={{ fontSize: 30 }} />
         </p>
       </div>
       <ul className={style.wizard_list}>

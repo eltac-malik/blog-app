@@ -54,7 +54,7 @@
     transition: 0.2s;
 
     &_active_side {
-      width: 100%;
+      width: 60%;
       visibility: visible;
       transition: 0.2s;
     }
@@ -65,6 +65,7 @@
       display: flex;
       align-items: center;
       justify-content: space-between;
+      padding: 20px 20px 0 0 ;
     }
 
     &_list_icon {
@@ -77,7 +78,7 @@
     }
 
     &_list_element {
-      height: 50px;
+      height: 40px;
     }
   }
 }
