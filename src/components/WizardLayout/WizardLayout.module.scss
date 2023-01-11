@@ -75,5 +75,9 @@
       background-color: var(--primary-color);
       color: white;
     }
+
+    &_list_element {
+      height: 50px;
+    }
   }
 }
