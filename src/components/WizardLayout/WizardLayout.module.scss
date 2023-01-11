@@ -51,12 +51,12 @@
     z-index: 1;
     width: 0;
     visibility: hidden;
-    transition: 0.2s;
+    transition: 0.3s;
 
     &_active_side {
       width: 60%;
       visibility: visible;
-      transition: 0.2s;
+      transition: 0.3s;
     }
 
     &_side_close_section {

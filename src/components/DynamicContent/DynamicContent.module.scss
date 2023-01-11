@@ -1,0 +1,9 @@
+.dynamic {
+    width: 40%;
+    height: 100vh;
+    background-color: red;
+    border-left: 1px solid #eaeaea;
+    @media(max-width:900px){
+        display: none;
+    }
+}
